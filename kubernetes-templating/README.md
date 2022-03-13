@@ -1,13 +1,11 @@
 # Выполнено ДЗ №6 Kubernetes Templating
-
 ## Основное ДЗ
 
-1. Настроен cert manager на выпуск сертификатов
-2. Подготовлен chartmuseum и выпущен сертификат. Доступен по url https://chartmuseum.otus.fortislink.ru
-3. Подготовлен harbor и выпущен сертификат. Доступен по url https://harbor.otus.fortislink.ru
-4. payment service и shipping service установлены через kubecfg
-5. kustomize настроен и выполняется kubectl apply -k kubernetes-templating/kustomize/overrides/<Название окружения>/
-
+1. Настроен cert manager.
+2. Подготовлен chartmuseum.
+3. Подготовлен harbor.
+4. Подготовлен Frontend.
+5. Подготовлен payment service и shipping service.
 
 ## PR checklist:
  - [*] Выставлен label с темой домашнего задания
